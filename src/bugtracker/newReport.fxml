@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="NewReportMainWindow" minHeight="590.9999000000025" prefHeight="591.0" prefWidth="665.0000999999975" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="bugtracker.newReportController">
+  <children>
+    <TextArea fx:id="description" layoutX="14.0" layoutY="86.0" prefHeight="451.0" prefWidth="635.0" promptText="Report Description" wrapText="true" />
+    <Button fx:id="createReport" layoutX="509.0" layoutY="545.0" mnemonicParsing="false" onAction="#addReport" prefHeight="31.9998779296875" prefWidth="140.0" text="Create Report" />
+    <TextField fx:id="heading" layoutX="14.0" layoutY="14.0" prefWidth="635.0" promptText="Report Heading" />
+    <TextField fx:id="submitter" layoutX="14.0" layoutY="48.0" prefWidth="200.0" promptText="Report Submitter" />
+    <TextField fx:id="status" layoutX="222.0" layoutY="48.0" prefWidth="111.0" promptText="Status" />
+    <TextField fx:id="number" layoutX="345.0" layoutY="48.0" prefWidth="151.0" promptText="Number" />
+    <TextField fx:id="date" layoutX="509.0" layoutY="48.0" prefWidth="140.0" promptText="Date" />
+  </children>
+  <stylesheets>
+    <URL value="@newCascadeStyleSheet.css" />
+  </stylesheets>
+</AnchorPane>
